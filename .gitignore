@@ -1,0 +1,10 @@
+venv
+.env
+Scripts
+Lib
+__pycache__
+pyvenv.cfg
+Artifacts
+logs
+final_model
+prediction_output

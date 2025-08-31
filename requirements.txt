@@ -1,0 +1,16 @@
+python-dotenv
+pandas
+numpy
+pymongo
+certifi
+pymongo[srv]
+scikit-learn
+mlflow<3.0.0
+pyaml
+dagshub
+fastapi
+uvicorn
+python-multipart
+setuptools
+
+##-e .
