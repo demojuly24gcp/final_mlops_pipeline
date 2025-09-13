@@ -1,0 +1,36 @@
+[ 2025-08-31 18:47:35,338 ] 86 dagshub.auth.tokens - WARNING - The added token already exists in the token cache, skipping
+[ 2025-08-31 18:47:36,142 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-08-31 18:47:36,145 ] 107 dagshub - INFO - Accessing as edurekajuly24gcp
+[ 2025-08-31 18:47:36,810 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/edurekajuly24gcp/final_mlops_pipeline "HTTP/1.1 200 OK"
+[ 2025-08-31 18:47:37,425 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-08-31 18:47:37,426 ] 107 dagshub - INFO - Initialized MLflow to track repo "edurekajuly24gcp/final_mlops_pipeline"
+[ 2025-08-31 18:47:37,427 ] 107 dagshub - INFO - Repository edurekajuly24gcp/final_mlops_pipeline initialized!
+[ 2025-08-31 18:47:37,427 ] 20 root - INFO - Initiate the data ingestion
+[ 2025-08-31 18:47:40,068 ] 65 root - INFO - Performed train test split on the dataframe
+[ 2025-08-31 18:47:40,068 ] 67 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-08-31 18:47:40,068 ] 75 root - INFO - Exporting train and test file path.
+[ 2025-08-31 18:47:40,113 ] 84 root - INFO - Exported train and test file path.
+[ 2025-08-31 18:47:40,113 ] 22 root - INFO - Data Initiation Completed
+[ 2025-08-31 18:47:40,125 ] 26 root - INFO - Initiate the data Validation
+[ 2025-08-31 18:47:40,174 ] 32 root - INFO - Required number of columns:2
+[ 2025-08-31 18:47:40,174 ] 33 root - INFO - Data frame has columns:31
+[ 2025-08-31 18:47:40,174 ] 32 root - INFO - Required number of columns:2
+[ 2025-08-31 18:47:40,174 ] 33 root - INFO - Data frame has columns:31
+[ 2025-08-31 18:47:40,294 ] 28 root - INFO - data Validation Completed
+[ 2025-08-31 18:47:40,295 ] 31 root - INFO - data Transformation started
+[ 2025-08-31 18:47:40,295 ] 63 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2025-08-31 18:47:40,295 ] 65 root - INFO - Starting data transformation
+[ 2025-08-31 18:47:40,316 ] 48 root - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[ 2025-08-31 18:47:40,316 ] 53 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-08-31 18:47:40,372 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-08-31 18:47:40,376 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-08-31 18:47:40,376 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-08-31 18:47:40,378 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-08-31 18:47:40,380 ] 35 root - INFO - data Transformation completed
+[ 2025-08-31 18:47:40,380 ] 37 root - INFO - Model Training sstared
+[ 2025-08-31 18:49:55,264 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-08-31 18:49:55,265 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-08-31 18:49:55,265 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-08-31 18:49:55,303 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-08-31 18:49:55,303 ] 149 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\08_31_2025_18_47_32\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9904050095949904, precision_score=0.9869162640901772, recall_score=0.9939185080072978), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9816998779991867, precision_score=0.977327935222672, recall_score=0.9861111111111112))
+[ 2025-08-31 18:49:55,307 ] 42 root - INFO - Model Training artifact created

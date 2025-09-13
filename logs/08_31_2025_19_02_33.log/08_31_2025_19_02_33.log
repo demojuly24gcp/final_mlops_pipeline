@@ -1,0 +1,7 @@
+[ 2025-08-31 19:02:37,535 ] 86 dagshub.auth.tokens - WARNING - The added token already exists in the token cache, skipping
+[ 2025-08-31 19:02:38,435 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-08-31 19:02:38,439 ] 107 dagshub - INFO - Accessing as edurekajuly24gcp
+[ 2025-08-31 19:02:39,115 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/edurekajuly24gcp/final_mlops_pipeline "HTTP/1.1 200 OK"
+[ 2025-08-31 19:02:39,720 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-08-31 19:02:39,724 ] 107 dagshub - INFO - Initialized MLflow to track repo "edurekajuly24gcp/final_mlops_pipeline"
+[ 2025-08-31 19:02:39,725 ] 107 dagshub - INFO - Repository edurekajuly24gcp/final_mlops_pipeline initialized!
